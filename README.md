@@ -12,11 +12,14 @@ run `bundle install`
 
 Create your migrations.
 
-- `Shelters` should have a `name` and an `address`
+- `Shelters` have a `name` and an `address`
+- `Adopters` have a `first_name` and a `last_name`
+
+You will have to fill in the columns for the table `Pets`
 
 - `Pets` should have a `name`, an `age_in_years`, a `species`, a boolean for `adopted?`, a `shelter_id`, and a `adopter_id`
 
-- `Adopters` should have a `first_name` and a `last_name`
+
 
 #### `shelters` Table
 
