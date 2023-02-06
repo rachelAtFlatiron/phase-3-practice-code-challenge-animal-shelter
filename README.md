@@ -15,7 +15,7 @@ Create your migrations.
 - `Shelters` have a `name` and an `address`
 - `Adopters` have a `first_name` and a `last_name`
 
-You will have to fill in the columns for the table `Pets`
+You will have to fill in the columns for the table `Pets` and create the seed data
 
 - `Pets` should have a `name`, an `age_in_years`, a `species`, a boolean for `adopted?`, a `shelter_id`, and a `adopter_id`
 
