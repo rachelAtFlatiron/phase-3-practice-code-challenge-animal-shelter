@@ -10,8 +10,8 @@ class Pet < ActiveRecord::Base
         end 
     end 
 
-    #manually add
-    #open up sqlite and test with sql
+    #test by manually add
+    #test by open up sqlite and test with sql
     #SELECT AVG(age) FROM pets;
     def self.average_age 
         Pet.average('age').to_i
