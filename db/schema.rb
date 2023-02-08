@@ -17,6 +17,15 @@ ActiveRecord::Schema.define(version: 2023_02_06_214534) do
     t.string "last_name"
   end
 
+  create_table "pets", force: :cascade do |t|
+    t.string "name"
+    t.integer "age"
+    t.string "species"
+    t.boolean "adopted?"
+    t.integer "shelter_id"
+    t.integer "adopter_id"
+  end
+
   create_table "shelters", force: :cascade do |t|
     t.string "name"
     t.string "address"
